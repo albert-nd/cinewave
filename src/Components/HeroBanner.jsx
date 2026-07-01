@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useWatchlist } from '../context/WatchlistContext'
 import { IMG_ORIGINAL } from '../services/tmdb'
-import TrailerModal from '../Components/TrailerModal'
+import TrailerModal from './TrailerModal'
 
 const HeroBanner = ({ movie }) => {
   const [showTrailer, setShowTrailer] = useState(false)
