@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import MovieCard from "../Components/MovieCard";
+import MovieCard from "../components/MovieCard";
 
 const Watchlist = () => {
   const [movies, setMovies] = useState([]);

@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { WatchlistProvider } from "./context/WatchlistContext";
-import Navbar from "./Components/NavBar";
+import Navbar from "./components/NavBar";
 import Home from "./Pages/Home";
 import MovieDetails from "./Pages/MovieDetails";
 import Watchlist from "./Pages/Watchlist";
 import Search from "./Pages/Search";
-import Footer from "./Components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (

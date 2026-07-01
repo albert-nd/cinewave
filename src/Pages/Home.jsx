@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import HeroBanner from '../Components/HeroBanner'
-import MovieRow from '../Components/MovieRow'
+import HeroBanner from '../components/HeroBanner'
+import MovieRow from '../components/MovieRow'
 import {
   getTrending, getPopular, getTopRated, getNowPlaying, getUpcoming, getMovieDetails,
 } from '../services/tmdb'
